@@ -12,21 +12,10 @@ class Auto():
     def advertise(self):
         print("BUY OUR", self.model)
 
-class Truck():
+class Truck(Auto):
     def __init__(self, make, model, year, color, num_wheels, bed_size):
-        self.make = make
-        self.model = model
-        self.year = year
-        self.color = color
-        self.num_wheels = num_wheels
-        self.bed_size = bed_size
-
-    def drive(self):
-        print("WE ARE DRIVING", self.model)
-
-    def advertise(self):
-        print("BUY OUR", self.model)
-
+       super().__init__(make, model, year, color, num_wheels)
+       self.bed_size = bed_size
 
 if __name__ == "__main__":
 
