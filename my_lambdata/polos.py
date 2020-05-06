@@ -6,7 +6,22 @@
 
 class Polo():
     def __init__(self, size, color):
-        pass
+        self.size = size
+        self.color = color
+
+
+    @property   
+    def full_name(self):
+        return f"{self.size} {self.color}"    
+
+
+    def wash(self):
+        print("WASHING THE {self.size}{self.color} POLO!")
+
+    @staticmethod
+    def fold(self):
+        print("FOLDING THE POLO!")
+        
 
 
 if __name__ == "__main__":
@@ -19,4 +34,4 @@ if __name__ == "__main__":
 
     p2 = Polo(size="Large", color="Yellow")
     print(p2.size, p2.color)
-    p2.fold()
+    p2.fold(self)
