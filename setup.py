@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="lambdata-fataik1", # the name that you will install via pip
-    version="1.1",
+    version="1.2",
     author="Fatai King",
     author_email="kinggy89@gmail.com",
     description="Helper Functions",

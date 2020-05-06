@@ -55,3 +55,5 @@ if __name__ == '__main__':
     y_predicted = [0, 0, 2, 1, 0, 2, 1, 0, 2, 0, 2, 2]
     cm = c_matrix(y_true=y_actual, y_pred=y_predicted).confusion_matrix(y_actual, y_predicted)
     print(cm)
+
+    #hopefully this adds to github now
