@@ -1,5 +1,6 @@
 
 import pytest
+
 def test_upper():
     #self.assertEqual('foo'.upper(), 'FOO')
     assert "foo".upper() == "FOO"
@@ -20,3 +21,7 @@ def test_split():
 
     with pytest.raises(TypeError):
         s.split(2)
+
+
+#def test_nothing():
+    #print("HELLO")
