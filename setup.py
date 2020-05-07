@@ -14,5 +14,5 @@ setup(
     #license="MIT",
     url="https://github.com/fataik1/lambdata-fataik1",
     #keywords="",
-    packages=find_packages() # ["my_lambdata"]
+    packages=["my_lambdata"] # ["my_lambdata"]
 )
