@@ -1,0 +1,22 @@
+Acme questions
+1)in your opinion, is an important part of code reviews? That is, what is
+  something you pay attention to when you review code, and that you appreciate
+  when others do the same for your code?
+
+Code reviews have several parts that are in important. 
+First this helps you mininmize the amount of mistakes you make when you are writing code. 
+A partner reviewing your code can help debug and find errors you didn't know existed.
+Another thing is that, code reviews helps make sure you fulfill your target/goal. 
+Reviewing with another person can help make sure all requirements for the task was met.
+Your confidence level can also rise during a code review. It'll help better understand
+the work you completed and also brings positive status towards the future when coding. 
+
+2) We have an awful lot of computers here, and it gets pretty confusing with
+  slightly different things running on all of them. How could containers help us
+  improve this situation?
+
+
+Well to start with, containers are an operatin system virtualiztion. One contianer can be used
+to run anything from small to large apps. Containers contain codes, libraries, and even foles. 
+Benefits of containers weoulf be they require a lot less system resources. Apps running in containers 
+can be deployed easily to multiple different operating systems. 

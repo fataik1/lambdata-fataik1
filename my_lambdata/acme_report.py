@@ -5,6 +5,7 @@ from acme import Product
 adjectives =['Awesome', 'Shiny', 'Impressive', 'Portable', 'Improved']
 nouns = ['Anvil', 'Catapult' 'Disguise' 'Mousetrap', '???']
 
+
 def generate_products(num_products=30):
     """Generates a givven numnber of random products"""
     products = []
@@ -18,7 +19,6 @@ def generate_products(num_products=30):
         prod = Product(name, price, weight, flammability)
         products.append(prod)
     return products
-
 
 
 def inventory_report(products):
@@ -43,5 +43,3 @@ def inventory_report(products):
 
 if __name__ == '__main__':
     inventory_report(generate_products())
-
-
