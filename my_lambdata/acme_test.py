@@ -15,13 +15,14 @@ class AcmeProductTests(unittest.TestCase):
         prod = Product('Test Product')
         self.assertEqual(prod.weight, 20)
 
-    #def test_steal(self):
-      #  """Test stealability and explode"""
-       # prod = Product(name= 'Test Product', price = 100,
-       #  weight= 100, flammability=100)
-        #self.assertEqual(prod.Stealability(), "Very Stealable")
-        #self.assertEqual(prod.explode(), "...BABOOM!!")
-        #Not sure why this does not want to run
+#def test_steal(self):
+#  """Test stealability and explode"""
+# prod = Product(name= 'Test Product', price = 100,
+#  weight= 100, flammability=100)
+#self.assertEqual(prod.Stealability(), "Very Stealable")
+#self.assertEqual(prod.explode(), "...BABOOM!!")
+#Not sure why this does not want to run
+
 
 class AcmeReportTests(unittest.TestCase):
     """Making sure the report functions properly."""
@@ -39,4 +40,3 @@ class AcmeReportTests(unittest.TestCase):
             self.assertIn(noun, nouns)
 if __name__ == '__main__':
     unittest.main()
-
